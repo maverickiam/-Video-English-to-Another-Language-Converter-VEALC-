@@ -23,7 +23,7 @@ $someJSON=$resp->getBody();
 echo '<pre>'.$resp->getBody().'</pre>';
   $someArray = json_decode($someJSON, true);
   print_r($someArray);        // Dump all data of the Array
-  echo $someArray[0]["transcript"]; // Access Array data
+  echo $someArray[0]["transcript"]; // Access Array data a
 
   // Convert JSON string to Object
   $someObject = json_decode($someJSON);
